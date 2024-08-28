@@ -32,24 +32,24 @@ To run this project, you'll need to have Python installed along with the necessa
 ```bash 
 pip install -r requirements.txt
 ```
-Alternatively, you can manually install the required libraries:
+```Alternatively, you can manually install the required libraries:
 pip install pandas numpy matplotlib seaborn yfinance scikit-learn tensorflow keras
-
+```
 ## Project Structure
 Stock_Price_Prediction.ipynb: The Jupyter notebook containing the code for the entire project.
 README.md: Project overview and instructions.
 requirements.txt: A list of Python libraries required to run the project.
 
 ##Usage
-1. Clone this repository to your local machine:
+```1. Clone this repository to your local machine:
 --> git clone https://github.com/yourusername/stock-price-prediction-lstm.git
-   
-2. Navigate to the project directory:
+   ```
+```2. Navigate to the project directory:
 --> cd stock-price-prediction-lstm
-   
-3. Open the Jupyter notebook:
+   ```
+```3. Open the Jupyter notebook:
 --> jupyter notebook Stock_Price_Prediction using lstm.ipynb
-   
+   ```
 4. Run the notebook to see the results of the stock price predictions.
 
 ## Model Architecture
@@ -64,16 +64,18 @@ The model was trained and tested on historical stock data, with predictions visu
 The Root Mean Squared Error (RMSE) was used to evaluate the model's performance.
 
 
-## Skills and Tools Used
+```## Skills and Tools Used
 --> Python Programming
 --> Data Analysis and Visualization: Pandas, Matplotlib, Seaborn
 --> Machine Learning: LSTM networks, Sequential model building, Data preprocessing
 --> Libraries: Pandas, NumPy, yFinance, Scikit-learn, TensorFlow, Keras
 --> Version Control: Git and GitHub
+```
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request or open an issue if you have any suggestions or improvements.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
+```
 This `README.md` file provides a comprehensive overview of your project, including instructions on how to run it and details about the model and tools used. Make sure to customize the links and sections like "Contributing" and "License" as needed.
+```
